@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$background-input: #DDDDDD;
+$btn-color: #4347B3;
+$btn-action: #D9D9D9;
+$price: #121439;
+$name: #2C2C2C;
+$black: #000;
+$white: #fff;
+$red: FF0000;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

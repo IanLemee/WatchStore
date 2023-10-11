@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+
+.container-btn-number{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  .btn {
+    height: 29px;
+  }
+
+  .btn-minus {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px 0 0 3px;
+    }
+
+  .btn-plus {
+    background-color: #D9D9D9;
+    border: none;
+    padding:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: #EEEEEE;
+    text-align: center;
+  }
+}
+
+  .btn-add {
+    background-color: #4347B3;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 10px;
+    color: #fff;
+    font-weight: 500;
+    width: 98px;
+  }
+}
