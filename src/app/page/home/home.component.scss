@@ -1,8 +1,17 @@
-.container-card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 70px;
+.container{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+
+
+  .container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
 }
+
+

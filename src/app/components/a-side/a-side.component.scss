@@ -1,0 +1,38 @@
+.aside {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 180px;
+padding: 0 0 0 4rem;
+gap: 20px;
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+
+  border-bottom: 1px #DDDDDD solid;
+
+  .chebox {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 15px;
+  }
+}
+
+.pulso {
+  border: none;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+label {
+  font-size: 12px;
+  margin-left: 5px;
+}
+}

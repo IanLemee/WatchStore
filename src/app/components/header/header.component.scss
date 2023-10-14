@@ -29,6 +29,7 @@
     }
 
     button {
+      border: none;
       cursor: pointer;
 
       img {
@@ -44,6 +45,33 @@
     display: flex;
 
     gap: 1.1rem;
+
+    .btn-bag {
+      border: none;
+      cursor: pointer;
+      background-color: #fff;
+      position: relative;
+
+      .dot-bag {
+        position: absolute;
+        right: 0;
+        background-color: red;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 10px;
+      }
+    }
+
+
+  }
+
+  .btn-menu {
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    display: none;
   }
 }
 
@@ -55,4 +83,24 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .container-icons {
+
+  .btn-icons {
+    display: none;
+  }
+}
+
+.container-menu-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+
+.btn-menu {
+  display: block;
+}
+}
+
 }
