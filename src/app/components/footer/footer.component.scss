@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 100px;
+  box-shadow: 1px 0px 5px #0000002d;
+  gap: 5px;
+
+  h1 {
+    font-family: 'Prata', serif;
+  }
+}
