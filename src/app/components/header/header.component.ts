@@ -7,9 +7,15 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  menuVisivel: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickmenu () {
+    this.menuVisivel = !this.menuVisivel
   }
 
 }
