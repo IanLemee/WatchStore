@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
     }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
+  onResize() {
     this.isResponsiveView = window.innerWidth <= 600; // Ajuste o valor conforme necessário
   }
 

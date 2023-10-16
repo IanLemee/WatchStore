@@ -11,6 +11,7 @@ import { CardComponent } from './components/card/card.component';
 import { BtnFilterComponent } from './macroComponents/btn-filter/btn-filter.component';
 import { ASideComponent } from './components/a-side/a-side.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NoItensComponent } from './macroComponents/no-itens/no-itens.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CardComponent,
     BtnFilterComponent,
     ASideComponent,
-    FooterComponent
+    FooterComponent,
+    NoItensComponent,
   ],
   imports: [
     BrowserModule,

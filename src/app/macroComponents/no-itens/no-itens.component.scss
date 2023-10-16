@@ -1,0 +1,43 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    width: 100%;
+    box-shadow: 1px 2px 5px #00000077;
+    position: relative;
+  }
+
+  .noItem {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 42px;
+    height: 3px;
+    background-color: red;
+    animation: countdown 2s linear forwards;
+    border-radius: 0 0 15px 15px ;
+  }
+
+}
+
+@keyframes countdown {
+  0%   { width: 100%; background-color: green; }
+  25%  { width: 75%; background-color: greenyellow; }
+  50%  { width: 50%; background-color: yellow; }
+  75%  { width: 25%; background-color: orange; }
+  100% { width: 0%; background-color: red; }
+}

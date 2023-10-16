@@ -14,9 +14,22 @@ export class CardBtnComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+
   adicionarAoCarrinho() {
-    this.dataService.quantidadeNoCarrinho += this.quantidade; // Atualize com a quantidade correta
+    this.dataService.quantidadeNoCarrinho += this.quantidade;
+
+    if (this.quantidade == 0) {
+      setTimeout(() => {
+        this.dataService.item = true
+
+        setTimeout(() => {
+          this.dataService.item = false
+        },2000)
+
+      },500)
+    }
+
+    this.quantidade = 0
   }
 
   plus() {
