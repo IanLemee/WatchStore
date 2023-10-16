@@ -90,7 +90,7 @@
   }
 
   .border {
-    margin: 13px 0;
+    margin: 10px 0 5px;
     border-bottom: 1px solid #CFCFCF;
 
   }
@@ -103,6 +103,27 @@
     gap: 5px;
     width: 100%;
     animation: aparecerBag 2s ease;
+  }
+}
+
+.menu-btn-bag {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: none;
+  background-color: #fff;
+  position: relative;
+
+  .menu-dot-bag {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    background-color: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
   }
 }
 

@@ -22,8 +22,11 @@
     </div>
     <div class="border"></div>
     <div class="menu-hamburguer-bag">
-      <img src="assets/images/bag.svg" alt="">
-      <h3>Bag</h3>
+      <button class="menu-btn-bag">
+        <div *ngIf="isItenOnCart" class="menu-dot-bag">{{ getQuantidadeItensNoCarrinho() }}</div>
+        <img src="assets/images/bag.svg" alt="">
+        <h3>Bag</h3>
+      </button>
     </div>
   </div>
 
