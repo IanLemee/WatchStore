@@ -2,7 +2,6 @@
 display: flex;
 flex-direction: column;
 justify-content: center;
-
 width: 180px;
 padding: 0 0 0 4rem;
 gap: 20px;
@@ -37,23 +36,9 @@ label {
 }
 }
 
-.aside-btn {
-  display: none;
-  padding: 0 1rem 0 2rem;
-  button {
-    border: none;
-    background-color: #fff;
-  }
-
-}
-
 @media (max-width: 768px) {
   .aside {
     display: none;
-  }
-
-  .aside-btn {
-    display: block;
   }
 
 }

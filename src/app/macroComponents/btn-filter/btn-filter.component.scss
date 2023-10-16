@@ -2,8 +2,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 4.3rem;
+  padding: 2rem;
   margin: 1rem  0 2.5rem 0;
+
+  .aside-btn {
+    display: none;
+    button {
+      border: none;
+      background-color: #fff;
+    }
+
+  }
 
 .filter {
   padding: 8px 20px;
@@ -16,6 +25,11 @@
 
 @media (max-width: 456px) {
   :host {
-    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+  .aside-btn {
+    display: block;
   }
+}
 }
