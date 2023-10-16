@@ -76,33 +76,33 @@
 
   .menu-hamburguer-icons {
     display: flex;
-    justify-content: center;
-    // align-items: center;
     flex-direction: column;
     width: 100%;
 
   .menu-hamburguer-profile {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     gap: 5px;
     width: 100%;
+    animation: aparecerProfile 1s forwards;
   }
 
   .border {
     margin: 13px 0;
     border-bottom: 1px solid #CFCFCF;
-    
+
   }
 
   .menu-hamburguer-bag {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     gap: 5px;
     width: 100%;
+    animation: aparecerBag 2s ease;
   }
 }
 
@@ -138,6 +138,38 @@
 .btn-menu {
   display: block;
 }
+
+.menu-hamburguer-icons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  /* Adicione uma regra para ocultar o menu quando a tela não estiver na faixa responsiva */
+  display: none; /* ou outra forma de ocultá-lo */
 }
 
+}
+
+}
+
+@keyframes aparecerProfile {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes aparecerBag {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataServiceService } from 'src/app/service/data-service.service';
 
 @Component({
   selector: 'app-card-btn',
@@ -9,9 +10,13 @@ export class CardBtnComponent implements OnInit {
 
   quantidade:number = 0
 
-  constructor() { }
+  constructor(private dataService: DataServiceService) { }
 
   ngOnInit(): void {
+  }
+  
+  adicionarAoCarrinho() {
+    this.dataService.quantidadeNoCarrinho += this.quantidade; // Atualize com a quantidade correta
   }
 
   plus() {

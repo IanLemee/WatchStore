@@ -7,8 +7,13 @@
   margin-top: 100px;
   height: 100px;
   box-shadow: 1px 0px 5px #0000002d;
-  gap: 5px;
 
+  .container-conteudo {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 5px;
+  }
   h1 {
     font-family: 'Prata', serif;
   }

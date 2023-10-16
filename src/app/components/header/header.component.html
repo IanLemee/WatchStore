@@ -9,13 +9,13 @@
       <input type="text" placeholder="What you looking for">
     </div>
     <div class="menu">
-      <button class="btn-menu" (click)="clickmenu()">
+      <button class="btn-menu" (click)="clickMenu()">
         <img src="assets/images/menu.svg" alt="">
       </button>
     </div>
   </div>
 
-  <div *ngIf="menuVisivel" class="menu-hamburguer-icons">
+  <div *ngIf="isMenuAberto && isResponsiveView" class="menu-hamburguer-icons">
     <div class="menu-hamburguer-profile">
       <img src="assets/images/Icon.svg" alt="">
       <h3>Profile</h3>
@@ -30,7 +30,7 @@
 
   <div class="container-icons">
     <button class="btn-bag">
-      <div class="dot-bag">1</div>
+      <div *ngIf="isItenOnCart" class="dot-bag">{{ getQuantidadeItensNoCarrinho() }}</div>
       <img src="assets/images/bag.svg" alt="">
     </button>
     <a class="btn-icons"><img src="assets/images/Icon.svg" alt=""></a>
