@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DataServiceService {
+  
   quantidadeNoCarrinho: number = 0;
-
   item: boolean = false
 
   getQuantidadeNoCarrinho(): number {

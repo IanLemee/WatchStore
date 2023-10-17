@@ -18,8 +18,8 @@ flex-direction: row;
   }
 }
 .noItens {
-  position: absolute;
-  top: 340px;
+  position: fixed;
+  bottom: 70px;
   right: 30px;
 }
 

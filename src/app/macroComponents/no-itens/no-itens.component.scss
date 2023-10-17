@@ -36,8 +36,8 @@
 
 @keyframes countdown {
   0%   { width: 100%; background-color: green; }
-  25%  { width: 75%; background-color: greenyellow; }
+  // 25%  { width: 75%; background-color: greenyellow; }
   50%  { width: 50%; background-color: yellow; }
-  75%  { width: 25%; background-color: orange; }
+  // 75%  { width: 25%; background-color: orange; }
   100% { width: 0%; background-color: red; }
 }
