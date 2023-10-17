@@ -2,7 +2,19 @@
   <button><img src="assets/images/aside.svg" alt=""></button>
 </div>
 
-<button class="filter">
-  Low Price
-</button>
+<div class="container">
+  <div class="container-firtBtn">
+    <button (click)="onClickFilter()" class="filter">
+      Ordenar Por
+      <img src="{{ img }}" alt="">
+    </button>
+  </div>
+  <div class="container-btn" *ngIf="showDiv">
+    <button>High Price</button>
+    <button>Low Price</button>
+    <button>Most Popular</button>
+  </div>
+</div>
+
+
 

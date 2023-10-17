@@ -5,6 +5,35 @@
   padding: 2rem;
   margin: 1rem  0 2.5rem 0;
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .container-btn {
+      position: absolute;
+      top: 33px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+      button {
+        padding: 8px 20px;
+        border-radius: 1px;
+        border: none;
+        box-shadow: 0 4px 4px #0000003f;
+        border: none;
+        background-color: #fff;
+        border-bottom: 1px solid #e2e2e2;
+        transition: .5s ease;
+      }
+
+      button:hover {
+        background-color: #f1f1f1;
+      }
+    }
+  }
+
   .aside-btn {
     display: none;
     button {
@@ -23,13 +52,13 @@
 }
 }
 
-@media (max-width: 456px) {
+@media (max-width: 768px) {
   :host {
     display: flex;
     justify-content: space-between;
 
-  .aside-btn {
-    display: block;
-  }
+    .aside-btn {
+      display: block;
+    }
 }
 }
