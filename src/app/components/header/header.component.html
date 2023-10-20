@@ -17,8 +17,10 @@
 
   <div *ngIf="isMenuAberto && isResponsiveView" class="menu-hamburguer-icons">
     <div class="menu-hamburguer-profile">
-      <img src="assets/images/Icon.svg" alt="">
-      <h3>Profile</h3>
+      <a routerLink="login" class="Profile">
+        <img src="assets/images/Icon.svg" alt="">
+        <h3>Profile</h3>
+      </a>
     </div>
     <div class="border"></div>
     <div class="menu-hamburguer-bag">

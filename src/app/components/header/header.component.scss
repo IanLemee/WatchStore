@@ -106,6 +106,13 @@
   }
 }
 
+.Profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu-btn-bag {
   display: flex;
   align-items: center;
