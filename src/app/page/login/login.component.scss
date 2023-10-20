@@ -1,0 +1,70 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        box-shadow: 1px 1px 5px #00000074;
+        border-radius: 5px;
+        padding: 20px;
+        height: 300px;
+        width: 400px;
+
+        .email {
+            display: flex;
+            flex-direction: column;
+            
+            input {
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                padding: 6px;
+                outline: none;
+            }
+
+            input:focus{
+                border:1px solid #7377e2;
+            }
+        }
+
+        .password {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                padding: 6px;
+                outline: none;
+            }
+
+            input:focus{
+                border:1px solid #7377e2;
+            }
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: #4347B3;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .login {
+        margin: 0 10px;
+    }
+}

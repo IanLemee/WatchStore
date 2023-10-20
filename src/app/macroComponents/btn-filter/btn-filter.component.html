@@ -1,5 +1,83 @@
 <div class="aside-btn">
-  <button><img src="assets/images/aside.svg" alt=""></button>
+  <button (click)="onClickPrices()" *ngIf="btnPrice">
+    <img src="assets/images/aside.svg" alt="">
+  </button>
+</div>
+
+<div class="aside" *ngIf="showDiv && isResponsiveView">
+  <div class="close">
+    <button class="close-btn" (click)="onClickPrices()" *ngIf="btnPriceClose">
+      <img src="assets/images/close.svg" alt="">
+    </button>
+  </div>
+  <div class="container price">
+    <h4>Price</h4>
+    <div class="price-chebox chebox">
+      <div class="first-price">
+        <input type="checkbox" name="first-price">
+        <label for="first-price">R$ 1200 - 1400</label>
+      </div>
+      <div class="second-price">
+        <input type="checkbox" name="second-price">
+        <label for="second-price">R$ 1600 - 1800</label>
+      </div>
+      <div class="third-price">
+        <input type="checkbox" name="third-price">
+        <label for="third-price">R$ Acima de R$ 1800</label>
+      </div>
+    </div>
+  </div>
+  <div class="container model">
+    <h4>Model</h4>
+    <div class="model-chebox chebox">
+      <div class="first-model">
+        <input type="checkbox" name="first-model">
+        <label for="first-model">Seiko</label>
+      </div>
+      <div class="second-model">
+        <input type="checkbox" name="second-model">
+        <label for="second-model">Patek</label>
+      </div>
+      <div class="third-model">
+        <input type="checkbox" name="third-model">
+        <label for="third-model">Cartie</label>
+      </div>
+    </div>
+  </div>
+  <div class="container movimentos">
+    <h4>Movimentos</h4>
+    <div class="movimento-chebox chebox">
+      <div class="first-movimento">
+        <input type="checkbox" name="first-movimento">
+        <label for="first-movimento">Quartzo</label>
+      </div>
+      <div class="second-movimento">
+        <input type="checkbox" name="second-movimento">
+        <label for="second-movimento">Automatico</label>
+      </div>
+      <div class="third-movimento">
+        <input type="checkbox" name="third-movimento">
+        <label for="third-movimento">Manual</label>
+      </div>
+    </div>
+  </div>
+  <div class="container pulso">
+    <h4>Pulso</h4>
+    <div class="pulso-chebox chebox">
+      <div class="first-pulso">
+        <input type="checkbox" name="first-pulso">
+        <label for="first-pulso">42mm</label>
+      </div>
+      <div class="second-pulso">
+        <input type="checkbox" name="second-pulso">
+        <label for="second-pulso">45mm</label>
+      </div>
+      <div class="third-pulso">
+        <input type="checkbox" name="third-pulso">
+        <label for="third-pulso">48mm</label>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="container">
@@ -9,7 +87,7 @@
       <img src="{{ img }}" alt="">
     </button>
   </div>
-  <div class="container-btn" *ngIf="showDiv">
+  <div class="container-btn" *ngIf="showDivFilter">
     <button>High Price</button>
     <button>Low Price</button>
     <button>Most Popular</button>

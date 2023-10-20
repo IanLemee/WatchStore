@@ -42,7 +42,7 @@
     }
 
   }
-
+  
 .filter {
   padding: 8px 20px;
   background-color: #F0F0F0;
@@ -50,6 +50,50 @@
   border: none;
   box-shadow: 0 4px 4px #0000003f;
 }
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  gap: 20px;
+  padding: 0;
+  position: absolute;
+  top: 15rem;
+  background-color: #fff;
+  border-radius: 5px;
+
+.close {
+  position: relative;
+
+  .close-btn {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    bottom: -13px;
+  }
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  
+    border-bottom: 1px #DDDDDD solid;
+  
+    .chebox {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  .pulso {
+    border: none;
+  }
 }
 
 @media (max-width: 768px) {

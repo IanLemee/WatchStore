@@ -12,6 +12,7 @@ import { BtnFilterComponent } from './macroComponents/btn-filter/btn-filter.comp
 import { ASideComponent } from './components/a-side/a-side.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NoItensComponent } from './macroComponents/no-itens/no-itens.component';
+import { LoginComponent } from './page/login/login.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { NoItensComponent } from './macroComponents/no-itens/no-itens.component'
     ASideComponent,
     FooterComponent,
     NoItensComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
