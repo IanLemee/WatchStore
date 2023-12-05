@@ -1,27 +1,13 @@
-# ProjetoRelogio
+Português
+O Projeto Reluajeria é uma iniciativa inovadora para criar uma experiência de e-commerce completa e imersiva. Com foco em oferecer uma plataforma de vendas de relógios, o projeto incorpora funcionalidades avançadas como adição de produtos ao carrinho, filtros dinâmicos e uma interface responsiva que se adapta a diferentes dispositivos. Desenvolvido com as tecnologias Angular e Java Spring Boot, o Reluajeria promete ser um e-commerce full-stack robusto e eficiente.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+O design moderno e intuitivo foi cuidadosamente elaborado no Figma, refletindo a visão do criador para uma navegação fluida e agradável. Atualmente, o projeto está com 60% do desenvolvimento do front-end concluído, já implementando integração com uma API que fornece dados essenciais como preço, nome e foto dos produtos.
 
-## Development server
+A meta é desenvolver uma plataforma que não apenas atenda às necessidades dos consumidores, mas também ofereça uma experiência de compra agradável e sem complicações. Acompanhe o progresso e contribua para o Projeto Reluajeria no GitHub.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+English
+The Reluajeria Project is an innovative initiative to create a complete and immersive e-commerce experience. Focused on offering a watch sales platform, the project incorporates advanced features such as adding products to the cart, dynamic filters, and a responsive interface that adapts to different devices. Developed with Angular and Java Spring Boot technologies, Reluajeria promises to be a robust and efficient full-stack e-commerce.
 
-## Code scaffolding
+The modern and intuitive design was carefully crafted in Figma, reflecting the creator’s vision for a smooth and pleasant navigation. Currently, the project is 60% complete in front-end development, already implementing integration with an API that provides essential data such as price, name, and photo of the products.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The goal is to develop a platform that not only meets consumer needs but also offers a pleasant and hassle-free shopping experience. Follow the progress and contribute to the Reluajeria Project on GitHub.
